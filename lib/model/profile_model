@@ -1,0 +1,17 @@
+export 'profile.dart';
+class Profile{
+final String name;
+final String role;
+final String qualification;
+final String email;
+final List<String>skills;
+final List<String>projects;
+project({
+required this.name,
+required this.role,
+required this. qualification,
+required this.email,
+required this.skills,
+required this.projects,
+});
+}
